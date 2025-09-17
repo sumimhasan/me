@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<body>
+    <div class="container">
+        <div class="Navbar">
+            <div class="logo">
+                <div class="logo-icon">></div>
+                <h1>Sumim Hasan</h1>
+            </div>
+            
+            <div class="navlinks" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <button class="mobile-toggle" id="mobileToggle">☰</button>
+        </div>
+        
+        <section id="home" class="hero">
+            <div class="github-profile">
+                <div class="profile-header">
+                    <div class="avatar"><img src="https://avatars.githubusercontent.com/u/153989902?v=4" alt="" srcset=""></div>
+                    <div class="profile-info">
+                        <h1>Sumim Hasan</h1>
+                        <p>Full Stack Developer & Problem Solver</p>
+                        <p>San Francisco, California • Available for work</p>
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <span class="stat-value">127</span>
+                                <span class="stat-label">Repositories</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">42</span>
+                                <span class="stat-label">Followers</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">38</span>
+                                <span class="stat-label">Following</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile-content">
+                    <div class="readme-header">
+                        <div class="readme-title">README.md</div>
+                        <button class="edit-btn"> my intro</button>
+                    </div>
+                    
+                    <div class="readme-content">
+                        <h2>About Me</h2>
+                        <p>Hello! I'm Sumim Hasan, a passionate Full Stack Developer with over 5 years of experience building scalable web applications and solving complex problems. I specialize in JavaScript ecosystems and modern development practices.</p>
+                        
+                        <h2>Technologies & Skills</h2>
+                        <div class="tech-stack">
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">TypeScript</span>
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">PostgreSQL</span>
+                            <span class="tech-item">MongoDB</span>
+                            <span class="tech-item">Docker</span>
+                            <span class="tech-item">AWS</span>
+                            <span class="tech-item">Git</span>
+                        </div>
+                        
+                        <h2>Current Focus</h2>
+                        <p>I'm currently working on <span class="badge">microservices architecture</span> and exploring <span class="badge">WebAssembly</span> for performance-critical applications.</p>
+                        
+                        <h2>Projects</h2>
+                        <ul>
+                            <li><a href="#">E-Commerce Platform</a> - A full-featured online shopping platform with payment integration</li>
+                            <li><a href="#">Analytics Dashboard</a> - Real-time data visualization dashboard for business intelligence</li>
+                            <li><a href="#">Fitness Tracker App</a> - Mobile application for tracking workouts and nutrition</li>
+                        </ul>
+                        
+                        <h2>Contact</h2>
+                        <p>Feel free to reach out if you want to collaborate on a project or just say hi!</p>
+                        <p>Email: <a href="mailto:sumim@example.com">sumim@example.com</a></p>
+                        <p>LinkedIn: <a href="https://linkedin.com/in/sumimhasan" target="_blank">linkedin.com/in/sumimhasan</a></p>
+                        
+                        <h2>GitHub Stats</h2>
+                        <p><i class="fas fa-star"></i> 1.2k stars • <i class="fas fa-code-branch"></i> 342 contributions this year</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3><i class="fab fa-js"></i> Frontend Development</h3>
+                    <p>Creating responsive and interactive user interfaces with modern frameworks.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                    <p>JavaScript, React, Vue.js, HTML5, CSS3</p>
+                </div>
+                
+                <div class="skill-card">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <p>Building robust server-side applications and APIs.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                    <p>Node.js, Python, Express, Django, RESTful APIs</p>
+                </div>
+                
+                <div class="skill-card">
+                    <h3><i class="fas fa-database"></i> Database Management</h3>
+                    <p>Designing and optimizing database structures.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                    <p>PostgreSQL, MongoDB, MySQL, Redis</p>
+                </div>
+                
+                <div class="skill-card">
+                    <h3><i class="fas fa-tools"></i> DevOps & Tools</h3>
+                    <p>Streamlining development workflows and deployment.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                    <p>Docker, Git, AWS, CI/CD, Testing</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online shopping platform with payment integration and inventory management.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Stripe API</span>
+                        </div>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization dashboard for business intelligence.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Mobile application for tracking workouts and nutrition with social features.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Redux</span>
+                            <span class="tag">GraphQL</span>
+                        </div>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <a href="mailto:sumim@example.com">sumim@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>San Francisco, California</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <a href="tel:+11234567890">+1 (123) 456-7890</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div class="contact-text">
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/sumimhasan" target="_blank">linkedin.com/in/sumimhasan</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+        
+        <div class="footer">
+            <p>&copy; 2023 Sumim Hasan. All rights reserved.</p>
+            <p>Designed and built with ❤️</p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,1 @@
+this is my simple repo for my porftfolio website , well for this type of simple project i use plain html css js 
